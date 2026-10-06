@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MoneyLogger — Privacy Policy</title>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+         max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1a1a1a; }
+  h1 { font-size: 1.7rem; } h2 { font-size: 1.2rem; margin-top: 1.8rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; vertical-align: top; }
+  th { background: #f5f5f5; }
+  .meta { color: #555; font-size: 0.95rem; }
+  .note { background: #fff8e1; border: 1px solid #ffe082; padding: 0.8rem 1rem; border-radius: 6px; }
+</style>
+</head>
+<body>
+
+<h1>MoneyLogger — Privacy Policy</h1>
+<p class="meta"><strong>Effective date:</strong> 2026-10-04<br>
+<strong>App:</strong> MoneyLogger (com.moneylogger.app)<br>
+<strong>Publisher:</strong> [PUBLISHER NAME — fill in]<br>
+<strong>Contact:</strong> [CONTACT EMAIL — fill in]</p>
+
+<p class="note">Before publishing, replace the three bracketed fields above. Then set this page's
+URL in Play Console (Policy &rarr; App content &rarr; Privacy policy) and in the build via
+<code>--dart-define=PRIVACY_POLICY_URL=...</code>.</p>
+
+<p>MoneyLogger is an <strong>offline-first personal finance app</strong>. The short version:
+<strong>your financial data stays on your device.</strong> We do not run any server, we do not
+have accounts, and we do not collect, transmit, sell, or share your personal data.</p>
+
+<h2>1. Who we are</h2>
+<p>MoneyLogger is a personal expense and income tracker for Android. There is no online service
+behind it — the app runs entirely on your phone.</p>
+
+<h2>2. What the app accesses, and why</h2>
+<h3>Bank transaction SMS</h3>
+<p>With your permission, MoneyLogger reads <strong>bank and card transaction SMS</strong> on your
+device to <strong>automatically create entries</strong> in your expense/income ledger. A prominent
+in-app disclosure is shown <strong>before</strong> the permission is requested, and you can decline
+and enter transactions manually instead.</p>
+<ul>
+  <li>SMS are read and parsed <strong>on your device only</strong>.</li>
+  <li>SMS content is <strong>never uploaded</strong> to us or any third party. We have no server to send it to.</li>
+  <li>You can revoke SMS permission any time in Android Settings.</li>
+</ul>
+
+<h3>Other device permissions</h3>
+<table>
+  <tr><th>Permission</th><th>Why it is used</th></tr>
+  <tr><td>SMS (READ_SMS / RECEIVE_SMS)</td><td>Read bank transaction messages to auto-create transactions.</td></tr>
+  <tr><td>Camera</td><td>Optional — attach a receipt photo to a transaction. Photos stay on the device.</td></tr>
+  <tr><td>Notifications</td><td>Local budget alerts, bill reminders, and daily summaries.</td></tr>
+  <tr><td>Biometric / Fingerprint</td><td>Optional app lock.</td></tr>
+  <tr><td>Internet</td><td>Only for the optional Google Drive backup you choose to enable.</td></tr>
+  <tr><td>Boot / Wake lock / Battery / Vibrate</td><td>Keep scheduled reminders and background capture reliable.</td></tr>
+</table>
+
+<h2>3. Where your data is stored</h2>
+<ul>
+  <li>All transactions, accounts, categories, budgets, and settings are stored in a <strong>private
+  database on your device</strong>.</li>
+  <li>We do <strong>not</strong> transmit this data to any server (we have none) and do <strong>not</strong>
+  share it with advertisers, analytics providers, or any third party.</li>
+  <li>The app contains <strong>no third-party advertising or analytics SDKs</strong>. Any crash/diagnostic
+  logs are kept <strong>locally on the device</strong> and are not sent anywhere.</li>
+</ul>
+
+<h2>4. Optional Google Drive backup</h2>
+<ul>
+  <li>If enabled, a backup of your database is <strong>encrypted</strong> on your device and uploaded to
+  <strong>your own Google Drive</strong> using your Google sign-in.</li>
+  <li>The backup lives in <strong>your</strong> Google account; we never receive or access it.</li>
+  <li>You can turn backup off and delete backups any time in the app.</li>
+  <li>If you do not enable it, no data ever leaves your device.</li>
+</ul>
+<p>Your use of Google Drive is also subject to Google's Privacy Policy.</p>
+
+<h2>5. Data sharing and selling</h2>
+<p>We do <strong>not</strong> sell, rent, or share your personal or financial data with anyone.</p>
+
+<h2>6. Data retention and deletion</h2>
+<ul>
+  <li>Your data remains on your device until you delete it or uninstall the app.</li>
+  <li>You can delete individual records, clear app data in the app, or uninstall to remove all local data.</li>
+  <li>Uninstalling does not remove Google Drive backups you created; delete those from your Drive if you wish.</li>
+</ul>
+
+<h2>7. Security</h2>
+<p>Your data is protected by Android's app sandboxing and your device security. You can add a PIN or
+biometric app lock inside MoneyLogger. Google Drive backups are encrypted.</p>
+
+<h2>8. Children</h2>
+<p>MoneyLogger is intended for adults and is <strong>not directed to children</strong>.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>We may update this policy as the app evolves; the "Effective date" above reflects the latest version.</p>
+
+<h2>10. Contact</h2>
+<p>Questions about this policy or your data: [CONTACT EMAIL — fill in].</p>
+
+</body>
+</html>
